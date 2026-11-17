@@ -50,13 +50,13 @@ Switch it on, that's all!
 Terminal 1
 ```
 sudo rfcomm connect 0 <bt_mac_addr> 1
-sudo chmod 666 /dev/rfcomm0
 ```
 Terminal 2
 ```
+sudo chmod 666 /dev/rfcomm0
 source lego-nb/bin/activate
 cd lego-nb/NXT-NB
-jupyter notebook --port=8888 --NotebookApp.port_retries=0 --no-browser \
-                 --NotebookApp.token='' --ip 0.0.0.0
+jupyter notebook --port=8888 --ServerApp.port_retries=0 --no-browser \
+                 --IdentityProvider.token='' --ip 0.0.0.0
 ```
 [Open the NXT notebook in your browser and enjoy!](http://localhost:8888/notebooks/NXT_notebook.ipynb)

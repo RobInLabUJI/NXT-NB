@@ -1,14 +1,13 @@
-# NXT-Colab
-Colab notebooks for programming LEGO Mindstorms NXT in Python 3.
+# NXT-NB
+Jupyter notebooks for programming LEGO Mindstorms NXT in Python.
 
 The code consists of [Jupyter notebooks](http://jupyter.org/) 
-hosted in [Google Colaboratory](https://research.google.com/colaboratory/faq.html)
-but running locally in a laptop or desktop computer with Ubuntu Linux 20.04 
+running locally in a laptop or desktop computer with Ubuntu Linux 
 that communicates with the robots via Bluetooth.
 
 The NXT is running its standard firmware.
 
-## Prerequisites - Ubuntu 20.04
+## Prerequisites - Ubuntu 22.04
 
 * Python 3.x
 * [Jupyter notebook](http://jupyter.readthedocs.io/en/latest/install.html)

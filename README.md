@@ -7,12 +7,14 @@ that communicates with the robots via Bluetooth.
 
 The NXT is running its standard firmware.
 
-## Prerequisites - Ubuntu 22.04
+## Prerequisites
 
-* Python 3.x
-* [Jupyter notebook](http://jupyter.readthedocs.io/en/latest/install.html)
-* [PyBluez](https://github.com/karulis/pybluez)
-* [NXT-Python](https://github.com/Eelviny/nxt-python)
+* Ubuntu 22.04.3
+* Python 3.10.12
+* python3-bluez 0.23
+* libbluetooth-dev 5.64
+* [Jupyter notebook](https://jupyter.org/) 1.1.1
+* [NXT-Python](https://sr.ht/~ni/nxt-python/) 3.5.1
 
 ## Setup
 
